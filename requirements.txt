@@ -1,0 +1,8 @@
+discord.py>=2.4,<3
+PyYAML>=6,<7
+python-dotenv>=1,<2
+Pillow>=10,<12
+ImageHash>=4.3,<5
+pytesseract>=0.3.13,<1
+transformers>=4.45,<5
+torch>=2.4,<3

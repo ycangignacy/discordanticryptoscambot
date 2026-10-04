@@ -1,0 +1,13 @@
+services:
+  ycangignacy-scam-bot:
+    build: .
+    container_name: ycangignacy-scam-bot
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./training_data:/app/training_data:ro
+      - ./data:/app/data
+      - model_cache:/app/.cache/huggingface
+volumes:
+  model_cache:

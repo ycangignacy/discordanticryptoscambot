@@ -1,0 +1,17 @@
+log_channel_id: 0
+scam_keywords:
+  - "double your crypto"
+  - "free crypto giveaway"
+  - "send crypto to receive"
+scam_domains: []
+bad_words: []
+learning:
+  enable_ai_layer: true
+  hash_threshold: 8
+  similarity_threshold: 0.90
+  training_folder: "training_data/scam_examples"
+enable_ocr: true
+max_image_size_mb: 8
+action: "ban"
+ban_reason: "Automated moderation: scam or prohibited content detected"
+delete_message_days: 1

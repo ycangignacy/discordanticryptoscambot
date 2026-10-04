@@ -73,4 +73,3 @@ The test suite covers text and domain matching plus example persistence and hash
 ```sh
 python -m pytest -q
 ```
-
